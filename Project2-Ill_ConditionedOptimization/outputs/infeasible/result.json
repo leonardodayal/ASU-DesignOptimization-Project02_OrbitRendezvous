@@ -1,0 +1,285 @@
+{
+  "configuration": {
+    "acceleration_limit": null,
+    "axis_acceleration_lower": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "axis_acceleration_upper": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "central_body": "Earth",
+    "final_time": 1200.0,
+    "formulation": "multiple_shooting",
+    "initial_state": [
+      100.0,
+      -200.0,
+      20.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maximum_terminal_speed": null,
+    "mu": 398600441800000.0,
+    "num_intervals": 60,
+    "numerical_scales": {
+      "control": 0.01,
+      "position": 100.0,
+      "velocity": 0.11313666536110223
+    },
+    "numerical_tolerances": {
+      "condition_severe": 100000000000000.0,
+      "condition_warning": 10000000000.0,
+      "control_absolute": 1e-10,
+      "control_relative": 1e-07,
+      "scaled_dynamics": 1e-07,
+      "solver_feasibility": 1e-08,
+      "solver_optimality": 1e-08,
+      "symmetry_relative": 1e-12,
+      "terminal_position": 1e-05,
+      "terminal_velocity": 1e-08
+    },
+    "orbit_regime": "low_earth_orbit",
+    "position_only_velocity_policy": null,
+    "position_tolerance": null,
+    "q_path": [
+      [
+        0.0001,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0001,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0001,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        78.12557953902788,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        78.12557953902788,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        78.12557953902788
+      ]
+    ],
+    "q_terminal": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "r_control": [
+      [
+        10000.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        10000.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        10000.0
+      ]
+    ],
+    "random_seed": null,
+    "reference_radius": 6778137.0,
+    "reference_states": null,
+    "solver_options": {
+      "backend": "CLARABEL",
+      "gradient_max_iterations": 200000,
+      "gradient_tolerance": 1e-08,
+      "max_iterations": 500,
+      "time_limit_seconds": 60.0
+    },
+    "terminal_mode": "rendezvous_exact",
+    "velocity_tolerance": null
+  },
+  "metadata": {
+    "control_units": [
+      "m/s^2",
+      "m/s^2",
+      "m/s^2"
+    ],
+    "frame": "target-centered LVLH (+x radial, +y along-track, +z orbit-normal)",
+    "model": "linear Clohessy-Wiltshire with exact zero-order hold",
+    "safety_classification": "educational analysis; not a flight command product",
+    "state_units": [
+      "m",
+      "m",
+      "m",
+      "m/s",
+      "m/s",
+      "m/s"
+    ],
+    "time_origin_seconds": 0.0
+  },
+  "reproducibility_id": "99ad50de6444b74285bea9eaa49ee64f2e0bf01c9a10400e780d17891143b2f3",
+  "result": {
+    "controls": [],
+    "diagnostics": {
+      "maximum_control_violation": null,
+      "maximum_dynamics_defect": null,
+      "maximum_scaled_dynamics_defect": null,
+      "terminal_position_residual": null,
+      "terminal_speed_m_per_s": null,
+      "terminal_velocity_residual": null,
+      "verification_failures": [
+        "invalid trajectory shape"
+      ]
+    },
+    "iterations": 7,
+    "message": "solver terminated with status infeasible",
+    "objective": null,
+    "objective_components": {},
+    "solve_time_seconds": 0.13243987504392862,
+    "solver_name": "CLARABEL",
+    "states": [],
+    "status": "infeasible",
+    "times": [
+      0.0,
+      20.0,
+      40.0,
+      60.0,
+      80.0,
+      100.0,
+      120.0,
+      140.0,
+      160.0,
+      180.0,
+      200.0,
+      220.0,
+      240.0,
+      260.0,
+      280.0,
+      300.0,
+      320.0,
+      340.0,
+      360.0,
+      380.0,
+      400.0,
+      420.0,
+      440.0,
+      460.0,
+      480.0,
+      500.0,
+      520.0,
+      540.0,
+      560.0,
+      580.0,
+      600.0,
+      620.0,
+      640.0,
+      660.0,
+      680.0,
+      700.0,
+      720.0,
+      740.0,
+      760.0,
+      780.0,
+      800.0,
+      820.0,
+      840.0,
+      860.0,
+      880.0,
+      900.0,
+      920.0,
+      940.0,
+      960.0,
+      980.0,
+      1000.0,
+      1020.0,
+      1040.0,
+      1060.0,
+      1080.0,
+      1100.0,
+      1120.0,
+      1140.0,
+      1160.0,
+      1180.0,
+      1200.0
+    ],
+    "warnings": []
+  },
+  "software_version": "0.1.0"
+}
