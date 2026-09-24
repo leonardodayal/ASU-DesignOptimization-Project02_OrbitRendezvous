@@ -1,0 +1,18 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+
+# Keep curated report and example outputs; ignore scratch runs.
+outputs/*
+!outputs/canonical/
+!outputs/canonical/**
+!outputs/infeasible/
+!outputs/infeasible/**
+!outputs/report/
+!outputs/report/**
+outputs/**/.DS_Store
+outputs/**/.cache/

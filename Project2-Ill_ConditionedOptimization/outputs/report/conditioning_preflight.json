@@ -1,0 +1,85 @@
+{
+  "status": "failed_criterion",
+  "criterion": "acceleration bound remains inactive for the gradient-descent diagnostic",
+  "automatic_retuning_performed": false,
+  "cross_track_hand_check": {
+    "num_intervals": 4,
+    "reduced_hessian": [
+      [
+        399390.8286211981,
+        -36656.77311048035
+      ],
+      [
+        -36656.77311048035,
+        500873.21321453055
+      ]
+    ],
+    "analytic_eigenvalues": [
+      387534.9953450745,
+      512729.04649065406
+    ],
+    "numerical_eigenvalues": [
+      387534.99534507457,
+      512729.04649065406
+    ],
+    "maximum_relative_error": 1.501997538612927e-16,
+    "passed": true
+  },
+  "rows": [
+    {
+      "num_intervals": 15,
+      "final_time_seconds": 300.0,
+      "reduced_dimension": 39,
+      "condition_number": 10.96621458049144,
+      "condition_number_after_diagonal_rescaling": 11.12915970282776,
+      "smallest_eigenvalue": 357911.5006892166,
+      "largest_eigenvalue": 3924934.3173836595,
+      "maximum_control_m_per_s2": 0.034255004932921725,
+      "acceleration_bound_inactive": 0
+    },
+    {
+      "num_intervals": 30,
+      "final_time_seconds": 600.0,
+      "reduced_dimension": 84,
+      "condition_number": 45.50811720895852,
+      "condition_number_after_diagonal_rescaling": 55.381233556122325,
+      "smallest_eigenvalue": 356616.13696151384,
+      "largest_eigenvalue": 16228928.959450575,
+      "maximum_control_m_per_s2": 0.017889578016818102,
+      "acceleration_bound_inactive": 0
+    },
+    {
+      "num_intervals": 60,
+      "final_time_seconds": 1200.0,
+      "reduced_dimension": 174,
+      "condition_number": 233.62085575038216,
+      "condition_number_after_diagonal_rescaling": 383.45662753999136,
+      "smallest_eigenvalue": 356298.9444974161,
+      "largest_eigenvalue": 83238864.31644426,
+      "maximum_control_m_per_s2": 0.011737538335204684,
+      "acceleration_bound_inactive": 0
+    },
+    {
+      "num_intervals": 120,
+      "final_time_seconds": 2400.0,
+      "reduced_dimension": 354,
+      "condition_number": 1834.7904933698312,
+      "condition_number_after_diagonal_rescaling": 5280.359078496269,
+      "smallest_eigenvalue": 356228.03896481165,
+      "largest_eigenvalue": 653603819.3644142,
+      "maximum_control_m_per_s2": 0.01028896799754102,
+      "acceleration_bound_inactive": 0
+    },
+    {
+      "num_intervals": 240,
+      "final_time_seconds": 4800.0,
+      "reduced_dimension": 714,
+      "condition_number": 35474.57521492328,
+      "condition_number_after_diagonal_rescaling": 189405.40491643857,
+      "smallest_eigenvalue": 356209.66118625534,
+      "largest_eigenvalue": 12636386418.034153,
+      "maximum_control_m_per_s2": 0.010193951350147295,
+      "acceleration_bound_inactive": 0
+    }
+  ]
+}

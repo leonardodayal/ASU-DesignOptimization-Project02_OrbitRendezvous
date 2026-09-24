@@ -1,0 +1,6 @@
+{
+  "maximum_state_error": 2.1600499167107046e-12,
+  "relative_tolerance": 1e-11,
+  "absolute_tolerance": 1e-12,
+  "passed": true
+}

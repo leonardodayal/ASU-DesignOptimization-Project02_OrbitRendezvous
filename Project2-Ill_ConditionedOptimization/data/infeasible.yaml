@@ -1,0 +1,51 @@
+central_body: Earth
+orbit_regime: low_earth_orbit
+mu: 3.986004418e14
+reference_radius: 6778137.0
+initial_state: [100.0, -200.0, 20.0, 0.0, 0.0, 0.0]
+final_time: 1200.0
+num_intervals: 60
+terminal_mode: rendezvous_exact
+axis_acceleration_lower: [0.0, 0.0, 0.0]
+axis_acceleration_upper: [0.0, 0.0, 0.0]
+q_path:
+  - [0.0001, 0.0, 0.0, 0.0, 0.0, 0.0]
+  - [0.0, 0.0001, 0.0, 0.0, 0.0, 0.0]
+  - [0.0, 0.0, 0.0001, 0.0, 0.0, 0.0]
+  - [0.0, 0.0, 0.0, 78.12557953902788, 0.0, 0.0]
+  - [0.0, 0.0, 0.0, 0.0, 78.12557953902788, 0.0]
+  - [0.0, 0.0, 0.0, 0.0, 0.0, 78.12557953902788]
+q_terminal:
+  - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+r_control:
+  - [10000.0, 0.0, 0.0]
+  - [0.0, 10000.0, 0.0]
+  - [0.0, 0.0, 10000.0]
+numerical_scales:
+  position: 100.0
+  velocity: 0.11313666536110223
+  control: 0.01
+numerical_tolerances:
+  solver_feasibility: 1.0e-8
+  solver_optimality: 1.0e-8
+  scaled_dynamics: 1.0e-7
+  terminal_position: 1.0e-5
+  terminal_velocity: 1.0e-8
+  control_absolute: 1.0e-10
+  control_relative: 1.0e-7
+  symmetry_relative: 1.0e-12
+  condition_warning: 1.0e10
+  condition_severe: 1.0e14
+solver_options:
+  backend: CLARABEL
+  max_iterations: 500
+  time_limit_seconds: 60.0
+  gradient_tolerance: 1.0e-8
+  gradient_max_iterations: 200000
+formulation: multiple_shooting
+
