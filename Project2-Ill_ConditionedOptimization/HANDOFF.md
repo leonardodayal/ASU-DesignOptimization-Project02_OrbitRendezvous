@@ -16,6 +16,8 @@
   and single-report requirements.
 - Removed unsupported numerical defaults and recorded all values that require human
   confirmation before a solve.
+- Committed the scoped documentation changes on branch `docs/spec-compliance` and pushed
+  the branch to `origin` without staging the modified `AGENTS.md` or `.DS_Store` files.
 
 ## Verification
 
@@ -28,6 +30,9 @@
 
 ## Blockers
 
+- Pull-request creation remains blocked because the GitHub command-line client is not
+  installed and no connected browser is available. The pushed branch can be reviewed at
+  `https://github.com/leonardodayal/ASU-DesignOptimization-Project02_OrbitRendezvous/pull/new/docs/spec-compliance`.
 - The solver/modeling backend, supported Python versions, supported operating systems,
   and dependency/license policy require human confirmation after review.
 - Physical example inputs, objective matrices, scaling values, numerical tolerances,
@@ -44,4 +49,3 @@
    functions.
 4. Adapt the required helpers into `src/conditioning.py`, adding a corresponding test for
    every function.
-
