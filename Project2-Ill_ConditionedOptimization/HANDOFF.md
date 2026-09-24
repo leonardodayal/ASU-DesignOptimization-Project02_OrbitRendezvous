@@ -40,8 +40,12 @@
 - D3 baseline convergence and D4 before/after curves remain deferred under the approved
   failure policy because the inactive-bound prerequisite failed. A human must approve a
   changed physical case or a bound-aware baseline before those diagnostics can run.
-- Pull-request creation still requires GitHub access after the implementation branch is
-  pushed. The GitHub command-line client was previously unavailable.
+- The branch is pushed to `origin`. Pull-request creation is still manual because the
+  GitHub command-line client is unavailable; use the URL in the next section.
+- The CI definition is stored under this project scaffold. Because the Git repository
+  root is its parent directory, GitHub will not discover that nested workflow until a
+  maintainer with parent-directory scope promotes it to the repository-root
+  `.github/workflows/` directory.
 - The repository's parent-level `.DS_Store` remains modified and is intentionally not
   part of this implementation.
 
@@ -50,4 +54,5 @@
 1. Review the generated artifacts in `outputs/` and the conclusions in `report.md`.
 2. If D3/D4 are required, explicitly approve either revised physical parameters or a
    projected/constrained first-order baseline; do not silently retune the confirmed case.
-3. Push `feature/rendezvous-implementation` and open a pull request after review.
+3. Open a pull request at
+   `https://github.com/leonardodayal/ASU-DesignOptimization-Project02_OrbitRendezvous/pull/new/feature/rendezvous-implementation`.
